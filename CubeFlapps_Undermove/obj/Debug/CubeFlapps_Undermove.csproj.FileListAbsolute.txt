@@ -30,14 +30,3 @@ C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps
 C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csproj.CoreCompileInputs.cache
 C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.exe
 C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.pdb
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\bin\Debug\CubeFlapps_Undermove.exe.config
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.exe
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.pdb
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csprojResolveAssemblyReference.cache
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.Form1.resources
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.LeaderboardForm.resources
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.Properties.Resources.resources
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.SettingsForm.resources
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csproj.GenerateResource.Cache
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\bin\Debug\CubeFlapps_Undermove.exe
-D:\CubeFlapps_Undermove\CubeFlapps_Undermove\bin\Debug\CubeFlapps_Undermove.pdb

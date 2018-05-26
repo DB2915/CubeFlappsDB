@@ -16,9 +16,7 @@ namespace CubeFlapps_Undermove
     {
 
         int a = 1;
-        int b = 20;
-        int c = 20;
-        bool d = true;
+        int b = 0;
         const int gravity = 1;
         const int minPenWidth = 2;
 
@@ -59,9 +57,10 @@ namespace CubeFlapps_Undermove
 
 
             System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream resourceStream = assembly.GetManifestResourceStream(@"CubeFlapps_Undermove.music.mp3");
+            System.IO.Stream resourceStream = assembly.GetManifestResourceStream(@"CubeFlapps_Undermove.music.wav");
             soundPlayer = new SoundPlayer(resourceStream);
             soundPlayer.PlayLooping();
+
         }
 
         // Главный цикл игры. Отрисовка + логика 
@@ -190,7 +189,14 @@ namespace CubeFlapps_Undermove
         private void PlayerLogic()
         {
             score++;
-
+            if (score==0)
+            {
+                b = 0;
+            }
+            if (score%50==0)
+            {
+                b -= 1;
+            }
             // Двигаем игрока с ускорением
             playerVelocity += gravity;
             player.Y += playerVelocity;
@@ -360,8 +366,8 @@ namespace CubeFlapps_Undermove
             string[] settings = File.ReadAllLines("settings");
             if (settings.Length >= 3)
             {
-                player_timer.Interval = Convert.ToInt32(settings[0]);
-                tubes_timer.Interval = Convert.ToInt32(settings[1]);
+                player_timer.Interval = Convert.ToInt32(settings[0]) + b;
+                tubes_timer.Interval = Convert.ToInt32(settings[1]) + b;
                 glow = Convert.ToBoolean(settings[2]);
             }
         }

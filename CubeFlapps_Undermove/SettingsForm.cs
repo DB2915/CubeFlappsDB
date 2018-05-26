@@ -16,6 +16,13 @@ namespace CubeFlapps_Undermove
         public SettingsForm()
         {
             InitializeComponent();
+            string[] settings = File.ReadAllLines("settings");
+            if (settings.Length >= 3)
+            {
+                trackBar1.Value = Convert.ToInt32(settings[0]);
+                trackBar2.Value = Convert.ToInt32(settings[1]);
+                checkBox1.Checked = Convert.ToBoolean(settings[2]);
+            }
         }
 
         private void trackBar2_Scroll(object sender, EventArgs e)

@@ -31,6 +31,7 @@ namespace CubeFlapps_Undermove
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.AppendText(textBox2.Text + ":" + currentScore + Environment.NewLine);
+            Close();
         }
 
         private void LeaderboardForm_FormClosing(object sender, FormClosingEventArgs e)

@@ -74,11 +74,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 25);
+            this.label1.Location = new System.Drawing.Point(13, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Player velocity(10-100)";
+            this.label1.Text = "Player velocity(100-10)";
             // 
             // label2
             // 
@@ -87,7 +87,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Tubes velocity(10-100)";
+            this.label2.Text = "Tubes velocity(100-10)";
             // 
             // button1
             // 
