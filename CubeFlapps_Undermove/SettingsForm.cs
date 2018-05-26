@@ -25,10 +25,6 @@ namespace CubeFlapps_Undermove
             }
         }
 
-        private void trackBar2_Scroll(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -39,6 +35,13 @@ namespace CubeFlapps_Undermove
             settings[2] = Convert.ToString(checkBox1.Checked);
             File.WriteAllLines("settings", settings);
             Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            trackBar1.Value = 20;
+            trackBar2.Value = 20;
+            checkBox1.Checked = true;
         }
     }
 }

@@ -31,17 +31,22 @@ namespace CubeFlapps_Undermove
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.AppendText(textBox2.Text + ":" + currentScore + Environment.NewLine);
+            File.WriteAllText("leaders.lol", textBox1.Text);
             Close();
         }
 
         private void LeaderboardForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            File.WriteAllText("leaders.lol", textBox1.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new ResetAll().Show();
         }
     }
 }

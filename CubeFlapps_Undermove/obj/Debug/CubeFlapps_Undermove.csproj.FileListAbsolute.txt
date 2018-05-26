@@ -30,3 +30,16 @@ C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps
 C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csproj.CoreCompileInputs.cache
 C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.exe
 C:\Users\Денис\Documents\Visual Studio 2017 проекты\Forms\CubeFlapps_Undermove\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.pdb
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\bin\Debug\CubeFlapps_Undermove.exe.config
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\bin\Debug\CubeFlapps_Undermove.exe
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\bin\Debug\CubeFlapps_Undermove.pdb
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csprojResolveAssemblyReference.cache
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.Form1.resources
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.LeaderboardForm.resources
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.Properties.Resources.resources
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.SettingsForm.resources
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csproj.GenerateResource.Cache
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.csproj.CoreCompileInputs.cache
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.exe
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.pdb
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.ResetAll.resources

@@ -83,6 +83,15 @@ namespace CubeFlapps_Undermove
 
         private void Draw(Graphics g)
         {
+            if (score == 0)
+            {
+                b = 0;
+            }
+            else if (score % 50 == 0)
+            {
+                b -= 1;
+            }
+            score++;
             if (a==1)
             {
                 g.FillRectangle(Brushes.Red, tube1);
@@ -188,22 +197,13 @@ namespace CubeFlapps_Undermove
 
         private void PlayerLogic()
         {
-            score++;
-            if (score==0)
-            {
-                b = 0;
-            }
-            if (score%50==0)
-            {
-                b -= 1;
-            }
             // Двигаем игрока с ускорением
             playerVelocity += gravity;
             player.Y += playerVelocity;
 
             // Если игрок нижней частью коснулся 
             // нижней части игрового поля,
-            // то пермещаем кго вверх и сбрасываем скорость
+            // то пермещаем его вверх и сбрасываем скорость
             // иначе если игрок коснулся потолка, то сбрасываем скорость 
             // и перемещаем его вплотную к потолку.
             if (player.Bottom >= pictureBox1.Height)
@@ -366,15 +366,21 @@ namespace CubeFlapps_Undermove
             string[] settings = File.ReadAllLines("settings");
             if (settings.Length >= 3)
             {
-                player_timer.Interval = Convert.ToInt32(settings[0]) + b;
-                tubes_timer.Interval = Convert.ToInt32(settings[1]) + b;
-                glow = Convert.ToBoolean(settings[2]);
+                if (b!=0)
+                {
+                    player_timer.Interval = Convert.ToInt32(settings[0]) + b;
+                    tubes_timer.Interval = Convert.ToInt32(settings[1]) + b;
+                    glow = Convert.ToBoolean(settings[2]);
+                }
+                else if(b==0)
+                {
+                    player_timer.Interval = 20;
+                    tubes_timer.Interval = 20;
+                    glow = Convert.ToBoolean(settings[2]);
+                }
+                File.WriteAllLines("settings", settings);
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
