@@ -43,3 +43,4 @@ C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug
 C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.exe
 C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.pdb
 C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.ResetAll.resources
+C:\Users\Денис\Documents\GitHub\CubeFlappsDB\CubeFlapps_Undermove\obj\Debug\CubeFlapps_Undermove.ExitForm.resources

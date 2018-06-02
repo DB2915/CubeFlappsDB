@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -39,6 +40,8 @@ namespace CubeFlapps_Undermove
         Rectangle tube6;
         int space = 150;
         int tubesVelocity = -3;
+
+        bool exit = false;
 
         SoundPlayer soundPlayer;
 
@@ -343,7 +346,15 @@ namespace CubeFlapps_Undermove
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Close();
+            if (exit==false)
+            {
+                new ExitForm().Show();
+                exit = true;
+            }
+            else
+            {
+                Close();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
